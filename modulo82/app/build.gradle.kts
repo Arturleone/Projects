@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.googlemaps_api_wsk"
-    compileSdk = 35
+    namespace = "com.example.modulo8"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.googlemaps_api_wsk"
+        applicationId = "com.example.modulo8"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -45,11 +45,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation ("com.google.android.gms:play-services-maps:18.1.0")
-    implementation ("com.google.android.gms:play-services-location:18.0.0")
-    implementation ("com.google.maps:google-maps-services:0.18.0")
-    implementation ("com.squareup.okhttp3:okhttp:4.10.0")
-    implementation ("com.google.android.libraries.places:places:2.7.0")
-    implementation ("com.google.maps.android:android-maps-utils:2.4.0")
-
 }
