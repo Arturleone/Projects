@@ -69,8 +69,6 @@ class LoginActivity : AppCompatActivity() {
             }
 
             override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
-                Toast.makeText(this@LoginActivity, "Erro de rede: ${t.message}", Toast.LENGTH_SHORT)
-                    .show()
             }
         })
     }
@@ -84,11 +82,9 @@ class LoginActivity : AppCompatActivity() {
             ) {
                 if (response.isSuccessful && response.body() != null) {
                     val usuarios = response.body()!!
-                    // Filtra o usuário que corresponde ao email
                     val usuario = usuarios.find { it.email == email }
 
                     if (usuario != null) {
-                        // Passar email, dr e nome para a MainActivity
                         val intent = Intent(this@LoginActivity, MainActivity::class.java)
                         intent.putExtra("EMAIL", usuario.email) // Email
                         intent.putExtra("DR", usuario.dr) // DR
@@ -102,18 +98,10 @@ class LoginActivity : AppCompatActivity() {
                             Toast.LENGTH_SHORT
                         ).show()
                     }
-                } else {
-                    Toast.makeText(
-                        this@LoginActivity,
-                        "Erro ao listar usuários.",
-                        Toast.LENGTH_SHORT
-                    ).show()
                 }
             }
 
             override fun onFailure(call: Call<List<UserDetailsResponse>>, t: Throwable) {
-                Toast.makeText(this@LoginActivity, "Erro de rede: ${t.message}", Toast.LENGTH_SHORT)
-                    .show()
             }
         })
     }

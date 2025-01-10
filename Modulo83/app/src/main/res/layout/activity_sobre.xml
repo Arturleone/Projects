@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/another_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SobreActivity"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:id="@+id/LayoutVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center|start">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voltar"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/circulo"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/logoanimator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:src="@drawable/logo"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="168dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="12dp"
+        android:text="O aplicativo EuVouNaTrip utilza mapeamento e um sistema de avaliação para colocar os melhores lugares para você, oferecendo o melhor serviço para você que quer viajar ou aproveitar os melhores momentos com seus amigos."
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+            android:id="@+id/textView15"
+            android:layout_width="377dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="12dp"
+
+            android:text="O aplicativo EuVouNaTrip utilza mapeamento e um sistema de avaliação para colocar os melhores lugares para você, oferecendo o melhor serviço para você que quer viajar ou aproveitar os melhores momentos com seus amigos."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="183dp"
+        android:layout_height="170dp"
+
+        android:layout_marginTop="12dp"
+        android:text="O aplicativo EuVouNaTrip utilza mapeamento e um sistema de avaliação para colocar os melhores lugares para você, oferecendo o melhor serviço para você que quer viajar ou aproveitar os melhores momentos com seus amigos."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <ImageView
+            android:id="@+id/face"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/transferirlk"
+            tools:layout_editor_absoluteX="234dp"
+            tools:layout_editor_absoluteY="399dp" />
+
+        <ImageView
+            android:id="@+id/insta"
+            android:layout_width="44dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/isnta"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="438dp" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/transferirtw"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="415dp" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            app:srcCompat="@drawable/dasd"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="425dp" />
+
+    </LinearLayout>
+
+    <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="203dp"
+            android:layout_height="139dp"
+            android:layout_marginEnd="177dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView16"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/img_2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

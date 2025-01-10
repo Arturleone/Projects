@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Modulo8</string>
+    <string name="Idioma">Idioma\n</string>
+    <string name="RegioesEIdiomas">Regiões e Idiomas\n</string>
+    <string name="configurações">CONFIGURAÇÕES\n</string>
+    <string name="contrasteTela">Contraste da Tela\n</string>
+    <string name="coresdotema">Cores do Tema\n</string>
+    <string name="Deuteranotopia">Deuteranotopia\n</string>
+    <string name="privacidade">Privacidade\n</string>
+    <string name="visibilidade">Visibilidade\n</string>
+    <string name="sizetext">Tamanho do Texto\n</string>
+</resources>

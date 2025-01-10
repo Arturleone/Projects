@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     private lateinit var destinationInput: EditText
     private lateinit var fusedLocationClient: FusedLocationProviderClient
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -101,7 +102,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             if (location != null) {
                 originLatLng = LatLng(location.latitude, location.longitude)
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(originLatLng, 12f))
-                googleMap.addMarker(MarkerOptions().position(originLatLng).title("Você está aqui"))
+                googleMap.addMarker(MarkerOptions(). position(originLatLng).title("Você está aqui"))
                 Log.d("MainActivity", "Localização do usuário: $originLatLng")
             } else {
                 Log.d("MainActivity", "Falha ao obter localização do usuário.")
@@ -111,7 +112,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private fun getCoordinatesAndDrawRoute(destination: String) {
         // Aqui você deve usar a geolocalização para converter o endereço digitado em coordenadas
-        val apiKey = "AIzaSyBE24TCqY7jQ6eOaJWUGlXLrwIKgTT9sw4"
+        val apiKey = "AIzaSyBavrBMWZ95acGkTjCXsVN1gCXfVOVJQGw"
         val geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json?address=$destination&key=$apiKey"
         Log.d("MainActivity", "Consultando geocode para: $destination")
 

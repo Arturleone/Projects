@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706015768891",
+    "project_id": "testeartur-3a457",
+    "storage_bucket": "testeartur-3a457.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706015768891:android:ab63b82bb465a3a512871e",
+        "android_client_info": {
+          "package_name": "com.example.modulo7"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjt_cpgr2VfejFfc6bP1IycFKB6XXzz98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

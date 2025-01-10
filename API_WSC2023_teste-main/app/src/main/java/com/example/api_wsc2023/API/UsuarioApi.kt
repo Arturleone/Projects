@@ -11,7 +11,7 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface UsuarioApi {
-    @POST("api/Usuarios")
+    @POST("/api/Usuarios")
     fun cadastrarUsuario(@Body usuario: Usuario): Call<Void>
 
     @POST("/api/Usuarios/Login")
@@ -19,10 +19,6 @@ interface UsuarioApi {
         @Query("email") email: String,
         @Query("senha") senha: String
     ): Call<LoginResponse>
-
-    // Método para obter detalhes do usuário pelo ID
-    @GET("/api/Usuarios/{id}") // Ajuste o endpoint conforme necessário
-    fun obterDetalhesUsuario(@Path("id") id: String): Call<UserDetailsResponse>
 
     // Método para listar todos os usuários
     @GET("/api/Usuarios")
