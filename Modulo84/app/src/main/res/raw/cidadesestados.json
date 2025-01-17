@@ -1,0 +1,3129 @@
+{
+   "estados": [
+      {
+         "sigla": "AC",
+         "nome": "Acre",
+         "cidades": [
+            {
+               "cidade": "Acrelândia",
+               "latitude": -9.82581,
+               "longitude": -66.8972
+            },
+            {
+               "cidade": "Assis Brasil",
+               "latitude": -10.9298,
+               "longitude": -69.5738
+            },
+            {
+               "cidade": "Brasiléia",
+               "latitude": -10.995,
+               "longitude": -68.7497
+            },
+            {
+               "cidade": "Bujari",
+               "latitude": -9.81528,
+               "longitude": -67.955
+            },
+            {
+               "cidade": "Capixaba",
+               "latitude": -10.566,
+               "longitude": -67.686
+            },
+            {
+               "cidade": "Cruzeiro do Sul",
+               "latitude": -7.62762,
+               "longitude": -72.6756
+            },
+            {
+               "cidade": "Epitaciolândia",
+               "latitude": -11.0188,
+               "longitude": -68.7341
+            },
+            {
+               "cidade": "Feijó",
+               "latitude": -8.17054,
+               "longitude": -70.351
+            },
+            {
+               "cidade": "Jordão",
+               "latitude": -9.1908,
+               "longitude": -71.9503
+            },
+            {
+               "cidade": "Mâncio Lima",
+               "latitude": -7.61657,
+               "longitude": -72.8997
+            },
+            {
+               "cidade": "Manoel Urbano",
+               "latitude": -8.83291,
+               "longitude": -69.2679
+            },
+            {
+               "cidade": "Marechal Thaumaturgo",
+               "latitude": -8.93898,
+               "longitude": -72.7997
+            },
+            {
+               "cidade": "Plácido de Castro",
+               "latitude": -10.2806,
+               "longitude": -67.1371
+            },
+            {
+               "cidade": "Porto Acre",
+               "latitude": -9.58138,
+               "longitude": -67.5478
+            },
+            {
+               "cidade": "Porto Walter",
+               "latitude": -8.26323,
+               "longitude": -72.7537
+            },
+            {
+               "cidade": "Rio Branco",
+               "latitude": -9.97499,
+               "longitude": -67.8243
+            },
+            {
+               "cidade": "Rodrigues Alves",
+               "latitude": -7.73864,
+               "longitude": -72.661
+            },
+            {
+               "cidade": "Santa Rosa do Purus",
+               "latitude": -9.44652,
+               "longitude": -70.4902
+            },
+            {
+               "cidade": "Sena Madureira",
+               "latitude": -9.06596,
+               "longitude": -68.6571
+            },
+            {
+               "cidade": "Senador Guiomard",
+               "latitude": -10.1497,
+               "longitude": -67.7362
+            },
+            {
+               "cidade": "Tarauacá",
+               "latitude": -8.15697,
+               "longitude": -70.7722
+            },
+            {
+               "cidade": "Xapuri",
+               "latitude": -10.6516,
+               "longitude": -68.4969
+            }
+         ]
+      },
+      {
+         "sigla": "AL",
+         "nome": "Alagoas",
+         "cidades": [
+            {
+               "cidade": "Água Branca",
+               "latitude": -9.262,
+               "longitude": -37.938
+            },
+            {
+               "cidade": "Anadia",
+               "latitude": -9.68489,
+               "longitude": -36.3078
+            },
+            {
+               "cidade": "Arapiraca",
+               "latitude": -9.75487,
+               "longitude": -36.6615
+            },
+            {
+               "cidade": "Atalaia",
+               "latitude": -9.5119,
+               "longitude": -36.0086
+            },
+            {
+               "cidade": "Barra de Santo Antônio",
+               "latitude": -9.4023,
+               "longitude": -35.5101
+            },
+            {
+               "cidade": "Barra de São Miguel",
+               "latitude": -9.83842,
+               "longitude": -35.9057
+            },
+            {
+               "cidade": "Batalha",
+               "latitude": -9.6742,
+               "longitude": -37.133
+            },
+            {
+               "cidade": "Belém",
+               "latitude": -9.57047,
+               "longitude": -36.4904
+            },
+            {
+               "cidade": "Belo Monte",
+               "latitude": -9.82272,
+               "longitude": -37.277
+            },
+            {
+               "cidade": "Boca da Mata",
+               "latitude": -9.64308,
+               "longitude": -36.2125
+            },
+            {
+               "cidade": "Branquinha",
+               "latitude": -9.23342,
+               "longitude": -36.0162
+            },
+            {
+               "cidade": "Cacimbinhas",
+               "latitude": -9.40121,
+               "longitude": -36.9911
+            },
+            {
+               "cidade": "Cajueiro",
+               "latitude": -9.3994,
+               "longitude": -36.1559
+            },
+            {
+               "cidade": "Campestre",
+               "latitude": -8.84723,
+               "longitude": -35.5685
+            },
+            {
+               "cidade": "Campo Alegre",
+               "latitude": -9.78451,
+               "longitude": -36.3525
+            },
+            {
+               "cidade": "Campo Grande",
+               "latitude": -20.4486,
+               "longitude": -54.6295
+            },
+            {
+               "cidade": "Canapi",
+               "latitude": -9.11932,
+               "longitude": -37.5967
+            },
+            {
+               "cidade": "Capela",
+               "latitude": -10.5069,
+               "longitude": -37.0628
+            },
+            {
+               "cidade": "Carneiros",
+               "latitude": -9.48476,
+               "longitude": -37.3773
+            },
+            {
+               "cidade": "Chã Preta",
+               "latitude": -9.2556,
+               "longitude": -36.2983
+            },
+            {
+               "cidade": "Coité do Nóia",
+               "latitude": -9.63348,
+               "longitude": -36.5845
+            },
+            {
+               "cidade": "Colônia Leopoldina",
+               "latitude": -8.91806,
+               "longitude": -35.7214
+            },
+            {
+               "cidade": "Coqueiro Seco",
+               "latitude": -9.63715,
+               "longitude": -35.7994
+            },
+            {
+               "cidade": "Coruripe",
+               "latitude": -10.1276,
+               "longitude": -36.1717
+            },
+            {
+               "cidade": "Craíbas",
+               "latitude": -9.6178,
+               "longitude": -36.7697
+            },
+            {
+               "cidade": "Delmiro Gouveia",
+               "latitude": -9.38534,
+               "longitude": -37.9987
+            },
+            {
+               "cidade": "Dois Riachos",
+               "latitude": -9.38465,
+               "longitude": -37.0965
+            },
+            {
+               "cidade": "Estrela de Alagoas",
+               "latitude": -9.39089,
+               "longitude": -36.7644
+            },
+            {
+               "cidade": "Feira Grande",
+               "latitude": -9.89859,
+               "longitude": -36.6815
+            },
+            {
+               "cidade": "Feliz Deserto",
+               "latitude": -10.2935,
+               "longitude": -36.3028
+            },
+            {
+               "cidade": "Flexeiras",
+               "latitude": -9.27281,
+               "longitude": -35.7139
+            },
+            {
+               "cidade": "Girau do Ponciano",
+               "latitude": -9.88404,
+               "longitude": -36.8316
+            },
+            {
+               "cidade": "Ibateguara",
+               "latitude": -8.97823,
+               "longitude": -35.9373
+            },
+            {
+               "cidade": "Igaci",
+               "latitude": -9.53768,
+               "longitude": -36.6372
+            },
+            {
+               "cidade": "Igreja Nova",
+               "latitude": -10.1235,
+               "longitude": -36.6597
+            },
+            {
+               "cidade": "Inhapi",
+               "latitude": -9.22594,
+               "longitude": -37.7509
+            },
+            {
+               "cidade": "Jacaré dos Homens",
+               "latitude": -9.63545,
+               "longitude": -37.2076
+            },
+            {
+               "cidade": "Jacuípe",
+               "latitude": -8.83951,
+               "longitude": -35.4591
+            },
+            {
+               "cidade": "Japaratinga",
+               "latitude": -9.08746,
+               "longitude": -35.2634
+            },
+            {
+               "cidade": "Jaramataia",
+               "latitude": -9.66224,
+               "longitude": -37.0046
+            },
+            {
+               "cidade": "Jequiá da Praia",
+               "latitude": -10.0133,
+               "longitude": -36.0142
+            },
+            {
+               "cidade": "Joaquim Gomes",
+               "latitude": -9.1328,
+               "longitude": -35.7474
+            },
+            {
+               "cidade": "Jundiá",
+               "latitude": -8.93297,
+               "longitude": -35.5669
+            },
+            {
+               "cidade": "Junqueiro",
+               "latitude": -9.90696,
+               "longitude": -36.4803
+            },
+            {
+               "cidade": "Lagoa da Canoa",
+               "latitude": -9.83291,
+               "longitude": -36.7413
+            },
+            {
+               "cidade": "Limoeiro de Anadia",
+               "latitude": -9.74098,
+               "longitude": -36.5121
+            },
+            {
+               "cidade": "Maceió",
+               "latitude": -9.66599,
+               "longitude": -35.735
+            },
+            {
+               "cidade": "Major Isidoro",
+               "latitude": -9.53009,
+               "longitude": -36.992
+            },
+            {
+               "cidade": "Mar Vermelho",
+               "latitude": -9.44739,
+               "longitude": -36.3881
+            },
+            {
+               "cidade": "Maragogi",
+               "latitude": -9.00744,
+               "longitude": -35.2267
+            },
+            {
+               "cidade": "Maravilha",
+               "latitude": -26.7665,
+               "longitude": -53.1737
+            },
+            {
+               "cidade": "Marechal Deodoro",
+               "latitude": -9.70971,
+               "longitude": -35.8967
+            },
+            {
+               "cidade": "Maribondo",
+               "latitude": -9.58353,
+               "longitude": -36.3045
+            },
+            {
+               "cidade": "Mata Grande",
+               "latitude": -9.11824,
+               "longitude": -37.7323
+            },
+            {
+               "cidade": "Matriz de Camaragibe",
+               "latitude": -9.15437,
+               "longitude": -35.5243
+            },
+            {
+               "cidade": "Messias",
+               "latitude": -9.39384,
+               "longitude": -35.8392
+            },
+            {
+               "cidade": "Minador do Negrão",
+               "latitude": -9.31236,
+               "longitude": -36.8696
+            },
+            {
+               "cidade": "Monteirópolis",
+               "latitude": -9.60357,
+               "longitude": -37.2505
+            },
+            {
+               "cidade": "Murici",
+               "latitude": -9.30682,
+               "longitude": -35.9428
+            },
+            {
+               "cidade": "Novo Lino",
+               "latitude": -8.94191,
+               "longitude": -35.664
+            },
+            {
+               "cidade": "Olho d'Água das Flores",
+               "latitude": -9.53686,
+               "longitude": -37.2971
+            },
+            {
+               "cidade": "Olho d'Água do Casado",
+               "latitude": -9.50357,
+               "longitude": -37.8301
+            },
+            {
+               "cidade": "Olho d'Água Grande",
+               "latitude": -10.0572,
+               "longitude": -36.8101
+            },
+            {
+               "cidade": "Olivença",
+               "latitude": -9.51954,
+               "longitude": -37.1954
+            },
+            {
+               "cidade": "Ouro Branco",
+               "latitude": -9.15884,
+               "longitude": -37.3556
+            },
+            {
+               "cidade": "Palestina",
+               "latitude": -20.39,
+               "longitude": -49.4309
+            },
+            {
+               "cidade": "Palmeira dos Índios",
+               "latitude": -9.40568,
+               "longitude": -36.6328
+            },
+            {
+               "cidade": "Pão de Açúcar",
+               "latitude": -9.74032,
+               "longitude": -37.4403
+            },
+            {
+               "cidade": "Pariconha",
+               "latitude": -9.25634,
+               "longitude": -37.9988
+            },
+            {
+               "cidade": "Paripueira",
+               "latitude": -9.46313,
+               "longitude": -35.552
+            },
+            {
+               "cidade": "Passo de Camaragibe",
+               "latitude": -9.24511,
+               "longitude": -35.4745
+            },
+            {
+               "cidade": "Paulo Jacinto",
+               "latitude": -9.36792,
+               "longitude": -36.3672
+            },
+            {
+               "cidade": "Penedo",
+               "latitude": -10.2874,
+               "longitude": -36.5819
+            },
+            {
+               "cidade": "Piaçabuçu",
+               "latitude": -10.406,
+               "longitude": -36.434
+            },
+            {
+               "cidade": "Pilar",
+               "latitude": -9.60135,
+               "longitude": -35.9543
+            },
+            {
+               "cidade": "Pindoba",
+               "latitude": -9.47382,
+               "longitude": -36.2918
+            },
+            {
+               "cidade": "Piranhas",
+               "latitude": -16.4258,
+               "longitude": -51.8235
+            },
+            {
+               "cidade": "Poço das Trincheiras",
+               "latitude": -9.30742,
+               "longitude": -37.2889
+            },
+            {
+               "cidade": "Porto Calvo",
+               "latitude": -9.05195,
+               "longitude": -35.3987
+            },
+            {
+               "cidade": "Porto de Pedras",
+               "latitude": -9.16006,
+               "longitude": -35.3049
+            },
+            {
+               "cidade": "Porto Real do Colégio",
+               "latitude": -10.1849,
+               "longitude": -36.8376
+            },
+            {
+               "cidade": "Quebrangulo",
+               "latitude": -9.32001,
+               "longitude": -36.4692
+            },
+            {
+               "cidade": "Rio Largo",
+               "latitude": -9.47783,
+               "longitude": -35.8394
+            },
+            {
+               "cidade": "Roteiro",
+               "latitude": -9.83503,
+               "longitude": -35.9782
+            },
+            {
+               "cidade": "Santa Luzia do Norte",
+               "latitude": -9.6037,
+               "longitude": -35.8232
+            },
+            {
+               "cidade": "Santana do Ipanema",
+               "latitude": -9.36999,
+               "longitude": -37.248
+            },
+            {
+               "cidade": "Santana do Mundaú",
+               "latitude": -9.17141,
+               "longitude": -36.2176
+            },
+            {
+               "cidade": "São Brás",
+               "latitude": -10.1141,
+               "longitude": -36.8522
+            },
+            {
+               "cidade": "São José da Laje",
+               "latitude": -9.01278,
+               "longitude": -36.0515
+            },
+            {
+               "cidade": "São José da Tapera",
+               "latitude": -9.55768,
+               "longitude": -37.3831
+            },
+            {
+               "cidade": "São Luís do Quitunde",
+               "latitude": -9.31816,
+               "longitude": -35.5606
+            },
+            {
+               "cidade": "São Miguel dos Campos",
+               "latitude": -9.78301,
+               "longitude": -36.0971
+            },
+            {
+               "cidade": "São Miguel dos Milagres",
+               "latitude": -9.26493,
+               "longitude": -35.3763
+            },
+            {
+               "cidade": "São Sebastião",
+               "latitude": -9.93043,
+               "longitude": -36.559
+            },
+            {
+               "cidade": "Satuba",
+               "latitude": -9.56911,
+               "longitude": -35.8227
+            },
+            {
+               "cidade": "Senador Rui Palmeira",
+               "latitude": -9.46986,
+               "longitude": -37.4576
+            },
+            {
+               "cidade": "Tanque d'Arca",
+               "latitude": -9.53379,
+               "longitude": -36.4366
+            },
+            {
+               "cidade": "Taquarana",
+               "latitude": -9.64529,
+               "longitude": -36.4928
+            },
+            {
+               "cidade": "Teotônio Vilela",
+               "latitude": -9.91656,
+               "longitude": -36.3492
+            },
+            {
+               "cidade": "Traipu",
+               "latitude": -9.96262,
+               "longitude": -37.0071
+            },
+            {
+               "cidade": "União dos Palmares",
+               "latitude": -9.15921,
+               "longitude": -36.0223
+            },
+            {
+               "cidade": "Viçosa",
+               "latitude": -20.7559,
+               "longitude": -42.8742
+            }
+         ]
+      },
+      {
+         "sigla": "AM",
+         "nome": "Amazonas",
+         "cidades": [
+            {
+               "cidade": "Alvarães",
+               "latitude": -3.22727,
+               "longitude": -64.8007
+            },
+            {
+               "cidade": "Amaturá",
+               "latitude": -3.37455,
+               "longitude": -68.2005
+            },
+            {
+               "cidade": "Anamã",
+               "latitude": -3.56697,
+               "longitude": -61.3963
+            },
+            {
+               "cidade": "Anori",
+               "latitude": -3.74603,
+               "longitude": -61.6575
+            },
+            {
+               "cidade": "Apuí",
+               "latitude": -7.19409,
+               "longitude": -59.896
+            },
+            {
+               "cidade": "Atalaia do Norte",
+               "latitude": -4.37055,
+               "longitude": -70.1967
+            },
+            {
+               "cidade": "Autazes",
+               "latitude": -3.58574,
+               "longitude": -59.1256
+            },
+            {
+               "cidade": "Barcelos",
+               "latitude": -0.983373,
+               "longitude": -62.9311
+            },
+            {
+               "cidade": "Barreirinha",
+               "latitude": -2.79886,
+               "longitude": -57.0679
+            },
+            {
+               "cidade": "Benjamin Constant",
+               "latitude": -4.37768,
+               "longitude": -70.0342
+            },
+            {
+               "cidade": "Beruri",
+               "latitude": -3.89874,
+               "longitude": -61.3616
+            },
+            {
+               "cidade": "Boa Vista do Ramos",
+               "latitude": -2.97409,
+               "longitude": -57.5873
+            },
+            {
+               "cidade": "Boca do Acre",
+               "latitude": -8.74232,
+               "longitude": -67.3919
+            },
+            {
+               "cidade": "Borba",
+               "latitude": -4.39154,
+               "longitude": -59.5874
+            },
+            {
+               "cidade": "Caapiranga",
+               "latitude": -3.31537,
+               "longitude": -61.2206
+            },
+            {
+               "cidade": "Canutama",
+               "latitude": -6.52582,
+               "longitude": -64.3953
+            },
+            {
+               "cidade": "Carauari",
+               "latitude": -4.88161,
+               "longitude": -66.9086
+            },
+            {
+               "cidade": "Careiro",
+               "latitude": -3.76803,
+               "longitude": -60.369
+            },
+            {
+               "cidade": "Careiro da Várzea",
+               "latitude": -3.314,
+               "longitude": -59.5557
+            },
+            {
+               "cidade": "Coari",
+               "latitude": -4.09412,
+               "longitude": -63.1441
+            },
+            {
+               "cidade": "Codajás",
+               "latitude": -3.83053,
+               "longitude": -62.0658
+            },
+            {
+               "cidade": "Eirunepé",
+               "latitude": -6.65677,
+               "longitude": -69.8662
+            },
+            {
+               "cidade": "Envira",
+               "latitude": -7.43789,
+               "longitude": -70.0281
+            },
+            {
+               "cidade": "Fonte Boa",
+               "latitude": -2.52342,
+               "longitude": -66.0942
+            },
+            {
+               "cidade": "Guajará",
+               "latitude": -7.53797,
+               "longitude": -72.5907
+            },
+            {
+               "cidade": "Humaitá",
+               "latitude": -7.51171,
+               "longitude": -63.0327
+            },
+            {
+               "cidade": "Ipixuna",
+               "latitude": -7.04791,
+               "longitude": -71.6934
+            },
+            {
+               "cidade": "Iranduba",
+               "latitude": -3.27479,
+               "longitude": -60.19
+            },
+            {
+               "cidade": "Itacoatiara",
+               "latitude": -3.13861,
+               "longitude": -58.4449
+            },
+            {
+               "cidade": "Itamarati",
+               "latitude": -6.43852,
+               "longitude": -68.2437
+            },
+            {
+               "cidade": "Itapiranga",
+               "latitude": -27.1659,
+               "longitude": -53.7166
+            },
+            {
+               "cidade": "Japurá",
+               "latitude": -1.88237,
+               "longitude": -66.9291
+            },
+            {
+               "cidade": "Juruá",
+               "latitude": -3.48438,
+               "longitude": -66.0718
+            },
+            {
+               "cidade": "Jutaí",
+               "latitude": -2.75814,
+               "longitude": -66.7595
+            },
+            {
+               "cidade": "Lábrea",
+               "latitude": -7.26413,
+               "longitude": -64.7948
+            },
+            {
+               "cidade": "Manacapuru",
+               "latitude": -3.29066,
+               "longitude": -60.6216
+            },
+            {
+               "cidade": "Manaquiri",
+               "latitude": -3.44078,
+               "longitude": -60.4612
+            },
+            {
+               "cidade": "Manaus",
+               "latitude": -3.11866,
+               "longitude": -60.0212
+            },
+            {
+               "cidade": "Manicoré",
+               "latitude": -5.80462,
+               "longitude": -61.2895
+            },
+            {
+               "cidade": "Maraã",
+               "latitude": -1.85313,
+               "longitude": -65.573
+            },
+            {
+               "cidade": "Maués",
+               "latitude": -3.39289,
+               "longitude": -57.7067
+            },
+            {
+               "cidade": "Nhamundá",
+               "latitude": -2.20793,
+               "longitude": -56.7112
+            },
+            {
+               "cidade": "Nova Olinda do Norte",
+               "latitude": -3.90037,
+               "longitude": -59.094
+            },
+            {
+               "cidade": "Novo Airão",
+               "latitude": -2.63637,
+               "longitude": -60.9434
+            },
+            {
+               "cidade": "Novo Aripuanã",
+               "latitude": -5.12593,
+               "longitude": -60.3732
+            },
+            {
+               "cidade": "Parintins",
+               "latitude": -2.63741,
+               "longitude": -56.729
+            },
+            {
+               "cidade": "Pauini",
+               "latitude": -7.71311,
+               "longitude": -66.992
+            },
+            {
+               "cidade": "Presidente Figueiredo",
+               "latitude": -2.02981,
+               "longitude": -60.0234
+            },
+            {
+               "cidade": "Rio Preto da Eva",
+               "latitude": -2.7045,
+               "longitude": -59.6858
+            },
+            {
+               "cidade": "Santa Isabel do Rio Negro",
+               "latitude": -0.410824,
+               "longitude": -65.0092
+            },
+            {
+               "cidade": "Santo Antônio do Içá",
+               "latitude": -3.09544,
+               "longitude": -67.9463
+            },
+            {
+               "cidade": "São Gabriel da Cachoeira",
+               "latitude": -0.11909,
+               "longitude": -67.084
+            },
+            {
+               "cidade": "São Paulo de Olivença",
+               "latitude": -3.47292,
+               "longitude": -68.9646
+            },
+            {
+               "cidade": "São Sebastião do Uatumã",
+               "latitude": -2.55915,
+               "longitude": -57.8731
+            },
+            {
+               "cidade": "Silves",
+               "latitude": -2.81748,
+               "longitude": -58.248
+            },
+            {
+               "cidade": "Tabatinga",
+               "latitude": -4.2416,
+               "longitude": -69.9383
+            },
+            {
+               "cidade": "Tapauá",
+               "latitude": -5.62085,
+               "longitude": -63.1808
+            },
+            {
+               "cidade": "Tefé",
+               "latitude": -3.36822,
+               "longitude": -64.7193
+            },
+            {
+               "cidade": "Tonantins",
+               "latitude": -2.86582,
+               "longitude": -67.7919
+            },
+            {
+               "cidade": "Uarini",
+               "latitude": -2.99609,
+               "longitude": -65.1133
+            },
+            {
+               "cidade": "Urucará",
+               "latitude": -2.52936,
+               "longitude": -57.7538
+            },
+            {
+               "cidade": "Urucurituba",
+               "latitude": -3.12841,
+               "longitude": -58.1496
+            }
+         ]
+      },
+      {
+         "sigla": "AP",
+         "nome": "Amapá",
+         "cidades": [
+            {
+               "cidade": "Amapá",
+               "latitude": 2.05267,
+               "longitude": -50.7957
+            },
+            {
+               "cidade": "Calçoene",
+               "latitude": 2.50475,
+               "longitude": -50.9512
+            },
+            {
+               "cidade": "Cutias",
+               "latitude": 0.970761,
+               "longitude": -50.8005
+            },
+            {
+               "cidade": "Ferreira Gomes",
+               "latitude": 0.857256,
+               "longitude": -51.1795
+            },
+            {
+               "cidade": "Itaubal",
+               "latitude": 0.602185,
+               "longitude": -50.6996
+            },
+            {
+               "cidade": "Laranjal do Jari",
+               "latitude": -0.804911,
+               "longitude": -52.453
+            },
+            {
+               "cidade": "Macapá",
+               "latitude": 0.034934,
+               "longitude": -51.0694
+            },
+            {
+               "cidade": "Mazagão",
+               "latitude": -0.11336,
+               "longitude": -51.2891
+            },
+            {
+               "cidade": "Oiapoque",
+               "latitude": 3.84074,
+               "longitude": -51.8331
+            },
+            {
+               "cidade": "Pedra Branca do Amapari",
+               "latitude": 0.777424,
+               "longitude": -51.9503
+            },
+            {
+               "cidade": "Porto Grande",
+               "latitude": 0.71243,
+               "longitude": -51.4155
+            },
+            {
+               "cidade": "Pracuúba",
+               "latitude": 1.74543,
+               "longitude": -50.7892
+            },
+            {
+               "cidade": "Santana",
+               "latitude": -0.045434,
+               "longitude": -51.1729
+            },
+            {
+               "cidade": "Serra do Navio",
+               "latitude": 0.901357,
+               "longitude": -52.0036
+            },
+            {
+               "cidade": "Tartarugalzinho",
+               "latitude": 1.50652,
+               "longitude": -50.9087
+            },
+            {
+               "cidade": "Vitória do Jari",
+               "latitude": -0.938,
+               "longitude": -52.424
+            }
+         ]
+      },
+      {
+         "sigla": "BA",
+         "nome": "Bahia",
+         "cidades": [
+            {
+               "cidade": "Abaíra",
+               "latitude": -13.2488,
+               "longitude": -41.6619
+            },
+            {
+               "cidade": "Abaré",
+               "latitude": -8.72073,
+               "longitude": -39.1162
+            },
+            {
+               "cidade": "Acajutiba",
+               "latitude": -11.6575,
+               "longitude": -38.0197
+            },
+            {
+               "cidade": "Adustina",
+               "latitude": -10.5437,
+               "longitude": -38.1113
+            },
+            {
+               "cidade": "Água Fria",
+               "latitude": -11.8618,
+               "longitude": -38.7639
+            },
+            {
+               "cidade": "Aiquara",
+               "latitude": -14.1269,
+               "longitude": -39.8937
+            },
+            {
+               "cidade": "Alagoinhas",
+               "latitude": -12.1335,
+               "longitude": -38.4208
+            },
+            {
+               "cidade": "Alcobaça",
+               "latitude": -17.5195,
+               "longitude": -39.2036
+            },
+            {
+               "cidade": "Almadina",
+               "latitude": -14.7089,
+               "longitude": -39.6415
+            },
+            {
+               "cidade": "Amargosa",
+               "latitude": -13.0215,
+               "longitude": -39.602
+            },
+            {
+               "cidade": "Amélia Rodrigues",
+               "latitude": -12.3914,
+               "longitude": -38.7563
+            },
+            {
+               "cidade": "América Dourada",
+               "latitude": -11.4429,
+               "longitude": -41.439
+            },
+            {
+               "cidade": "Anagé",
+               "latitude": -14.6151,
+               "longitude": -41.1356
+            },
+            {
+               "cidade": "Andaraí",
+               "latitude": -12.8049,
+               "longitude": -41.3297
+            },
+            {
+               "cidade": "Andorinha",
+               "latitude": -10.3482,
+               "longitude": -39.8391
+            },
+            {
+               "cidade": "Angical",
+               "latitude": -12.0063,
+               "longitude": -44.7003
+            },
+            {
+               "cidade": "Anguera",
+               "latitude": -12.1462,
+               "longitude": -39.2462
+            },
+            {
+               "cidade": "Antas",
+               "latitude": -10.3856,
+               "longitude": -38.3401
+            },
+            {
+               "cidade": "Antônio Cardoso",
+               "latitude": -12.4335,
+               "longitude": -39.1176
+            },
+            {
+               "cidade": "Antônio Gonçalves",
+               "latitude": -10.5767,
+               "longitude": -40.2785
+            },
+            {
+               "cidade": "Aporá",
+               "latitude": -11.6577,
+               "longitude": -38.0814
+            },
+            {
+               "cidade": "Apuarema",
+               "latitude": -13.8542,
+               "longitude": -39.7501
+            },
+            {
+               "cidade": "Araças",
+               "latitude": -12.22,
+               "longitude": -38.2027
+            },
+            {
+               "cidade": "Aracatu",
+               "latitude": -14.428,
+               "longitude": -41.4648
+            },
+            {
+               "cidade": "Araci",
+               "latitude": -11.3253,
+               "longitude": -38.9584
+            },
+            {
+               "cidade": "Aramari",
+               "latitude": -12.0884,
+               "longitude": -38.4969
+            },
+            {
+               "cidade": "Arataca",
+               "latitude": -15.2651,
+               "longitude": -39.419
+            },
+            {
+               "cidade": "Aratuípe",
+               "latitude": -13.0716,
+               "longitude": -39.0038
+            },
+            {
+               "cidade": "Aurelino Leal",
+               "latitude": -14.321,
+               "longitude": -39.329
+            },
+            {
+               "cidade": "Baianópolis",
+               "latitude": -12.3016,
+               "longitude": -44.5388
+            },
+            {
+               "cidade": "Baixa Grande",
+               "latitude": -11.9519,
+               "longitude": -40.169
+            },
+            {
+               "cidade": "Banzaê",
+               "latitude": -10.5788,
+               "longitude": -38.6212
+            },
+            {
+               "cidade": "Barra",
+               "latitude": -11.0859,
+               "longitude": -43.1459
+            },
+            {
+               "cidade": "Barra da Estiva",
+               "latitude": -13.6237,
+               "longitude": -41.3347
+            },
+            {
+               "cidade": "Barra do Choça",
+               "latitude": -14.8654,
+               "longitude": -40.5791
+            },
+            {
+               "cidade": "Barra do Mendes",
+               "latitude": -11.81,
+               "longitude": -42.059
+            },
+            {
+               "cidade": "Barra do Rocha",
+               "latitude": -14.2,
+               "longitude": -39.5991
+            },
+            {
+               "cidade": "Barreiras",
+               "latitude": -12.1439,
+               "longitude": -44.9968
+            },
+            {
+               "cidade": "Barro Alto",
+               "latitude": -14.9658,
+               "longitude": -48.9086
+            },
+            {
+               "cidade": "Barrocas",
+               "latitude": -11.5272,
+               "longitude": -39.0776
+            },
+            {
+               "cidade": "Barro Preto",
+               "latitude": -14.7948,
+               "longitude": -39.476
+            },
+            {
+               "cidade": "Belmonte",
+               "latitude": -15.8608,
+               "longitude": -38.8758
+            },
+            {
+               "cidade": "Belo Campo",
+               "latitude": -15.0334,
+               "longitude": -41.2652
+            },
+            {
+               "cidade": "Biritinga",
+               "latitude": -11.6072,
+               "longitude": -38.8051
+            },
+            {
+               "cidade": "Boa Nova",
+               "latitude": -14.3598,
+               "longitude": -40.2064
+            },
+            {
+               "cidade": "Boa Vista do Tupim",
+               "latitude": -12.6498,
+               "longitude": -40.6064
+            },
+            {
+               "cidade": "Bom Jesus da Lapa",
+               "latitude": -13.2506,
+               "longitude": -43.4108
+            },
+            {
+               "cidade": "Bom Jesus da Serra",
+               "latitude": -14.3663,
+               "longitude": -40.5126
+            },
+            {
+               "cidade": "Boninal",
+               "latitude": -12.7069,
+               "longitude": -41.8286
+            },
+            {
+               "cidade": "Bonito",
+               "latitude": -21.1261,
+               "longitude": -56.4836
+            },
+            {
+               "cidade": "Boquira",
+               "latitude": -12.8205,
+               "longitude": -42.7324
+            },
+            {
+               "cidade": "Botuporã",
+               "latitude": -13.3772,
+               "longitude": -42.5163
+            },
+            {
+               "cidade": "Brejões",
+               "latitude": -13.1039,
+               "longitude": -39.7988
+            },
+            {
+               "cidade": "Brejolândia",
+               "latitude": -12.4815,
+               "longitude": -43.9679
+            },
+            {
+               "cidade": "Brotas de Macaúbas",
+               "latitude": -11.9915,
+               "longitude": -42.6326
+            },
+            {
+               "cidade": "Brumado",
+               "latitude": -14.2021,
+               "longitude": -41.6696
+            },
+            {
+               "cidade": "Buerarema",
+               "latitude": -14.9595,
+               "longitude": -39.3028
+            },
+            {
+               "cidade": "Buritirama",
+               "latitude": -10.7171,
+               "longitude": -43.6302
+            },
+            {
+               "cidade": "Caatiba",
+               "latitude": -14.9699,
+               "longitude": -40.4092
+            },
+            {
+               "cidade": "Cabaceiras do Paraguaçu",
+               "latitude": -12.5317,
+               "longitude": -39.1902
+            },
+            {
+               "cidade": "Cachoeira",
+               "latitude": -12.5994,
+               "longitude": -38.9587
+            },
+            {
+               "cidade": "Caculé",
+               "latitude": -14.5003,
+               "longitude": -42.2229
+            },
+            {
+               "cidade": "Caém",
+               "latitude": -11.0677,
+               "longitude": -40.432
+            },
+            {
+               "cidade": "Caetanos",
+               "latitude": -14.3347,
+               "longitude": -40.9175
+            },
+            {
+               "cidade": "Caetité",
+               "latitude": -14.0684,
+               "longitude": -42.4861
+            },
+            {
+               "cidade": "Cafarnaum",
+               "latitude": -11.6914,
+               "longitude": -41.4688
+            },
+            {
+               "cidade": "Cairu",
+               "latitude": -13.4904,
+               "longitude": -39.0465
+            },
+            {
+               "cidade": "Caldeirão Grande",
+               "latitude": -11.0208,
+               "longitude": -40.2956
+            },
+            {
+               "cidade": "Camacan",
+               "latitude": -15.4142,
+               "longitude": -39.4919
+            },
+            {
+               "cidade": "Camaçari",
+               "latitude": -12.6996,
+               "longitude": -38.3263
+            },
+            {
+               "cidade": "Camamu",
+               "latitude": -13.9398,
+               "longitude": -39.1071
+            },
+            {
+               "cidade": "Campo Alegre de Lourdes",
+               "latitude": -9.52221,
+               "longitude": -43.0126
+            },
+            {
+               "cidade": "Campo Formoso",
+               "latitude": -10.5105,
+               "longitude": -40.32
+            },
+            {
+               "cidade": "Canápolis",
+               "latitude": -18.7212,
+               "longitude": -49.2035
+            },
+            {
+               "cidade": "Canarana",
+               "latitude": -13.5515,
+               "longitude": -52.2705
+            },
+            {
+               "cidade": "Canavieiras",
+               "latitude": -15.6722,
+               "longitude": -38.9536
+            },
+            {
+               "cidade": "Candeal",
+               "latitude": -11.8049,
+               "longitude": -39.1203
+            },
+            {
+               "cidade": "Candeias",
+               "latitude": -20.7692,
+               "longitude": -45.2765
+            },
+            {
+               "cidade": "Candiba",
+               "latitude": -14.4097,
+               "longitude": -42.8667
+            },
+            {
+               "cidade": "Cândido Sales",
+               "latitude": -15.4993,
+               "longitude": -41.2414
+            },
+            {
+               "cidade": "Cansanção",
+               "latitude": -10.6647,
+               "longitude": -39.4944
+            },
+            {
+               "cidade": "Canudos",
+               "latitude": -9.90014,
+               "longitude": -39.1471
+            },
+            {
+               "cidade": "Capela do Alto Alegre",
+               "latitude": -11.6658,
+               "longitude": -39.8349
+            },
+            {
+               "cidade": "Capim Grosso",
+               "latitude": -11.3797,
+               "longitude": -40.0089
+            },
+            {
+               "cidade": "Caraíbas",
+               "latitude": -14.7177,
+               "longitude": -41.2603
+            },
+            {
+               "cidade": "Caravelas",
+               "latitude": -17.7268,
+               "longitude": -39.2597
+            },
+            {
+               "cidade": "Cardeal da Silva",
+               "latitude": -11.9472,
+               "longitude": -37.9469
+            },
+            {
+               "cidade": "Carinhanha",
+               "latitude": -14.2985,
+               "longitude": -43.7724
+            },
+            {
+               "cidade": "Casa Nova",
+               "latitude": -9.16408,
+               "longitude": -40.974
+            },
+            {
+               "cidade": "Castro Alves",
+               "latitude": -12.7579,
+               "longitude": -39.4248
+            },
+            {
+               "cidade": "Catolândia",
+               "latitude": -12.31,
+               "longitude": -44.8648
+            },
+            {
+               "cidade": "Catu",
+               "latitude": -12.3513,
+               "longitude": -38.3791
+            },
+            {
+               "cidade": "Caturama",
+               "latitude": -13.3239,
+               "longitude": -42.2904
+            },
+            {
+               "cidade": "Central",
+               "latitude": -11.1376,
+               "longitude": -42.1116
+            },
+            {
+               "cidade": "Chorrochó",
+               "latitude": -8.9695,
+               "longitude": -39.0979
+            },
+            {
+               "cidade": "Cícero Dantas",
+               "latitude": -10.5897,
+               "longitude": -38.3794
+            },
+            {
+               "cidade": "Cipó",
+               "latitude": -11.1032,
+               "longitude": -38.5179
+            },
+            {
+               "cidade": "Coaraci",
+               "latitude": -14.637,
+               "longitude": -39.5556
+            },
+            {
+               "cidade": "Cocos",
+               "latitude": -14.1814,
+               "longitude": -44.5352
+            },
+            {
+               "cidade": "Conceição da Feira",
+               "latitude": -12.5078,
+               "longitude": -38.9978
+            },
+            {
+               "cidade": "Conceição do Almeida",
+               "latitude": -12.7836,
+               "longitude": -39.1715
+            },
+            {
+               "cidade": "Conceição do Coité",
+               "latitude": -11.56,
+               "longitude": -39.2808
+            },
+            {
+               "cidade": "Conceição do Jacuípe",
+               "latitude": -12.3268,
+               "longitude": -38.7684
+            },
+            {
+               "cidade": "Conde",
+               "latitude": -11.8179,
+               "longitude": -37.6131
+            },
+            {
+               "cidade": "Condeúba",
+               "latitude": -14.9022,
+               "longitude": -41.9718
+            },
+            {
+               "cidade": "Contendas do Sincorá",
+               "latitude": -13.7537,
+               "longitude": -41.048
+            },
+            {
+               "cidade": "Coração de Maria",
+               "latitude": -12.2333,
+               "longitude": -38.7487
+            },
+            {
+               "cidade": "Cordeiros",
+               "latitude": -15.0356,
+               "longitude": -41.9308
+            },
+            {
+               "cidade": "Coribe",
+               "latitude": -13.8232,
+               "longitude": -44.4586
+            },
+            {
+               "cidade": "Coronel João Sá",
+               "latitude": -10.2847,
+               "longitude": -37.9198
+            },
+            {
+               "cidade": "Correntina",
+               "latitude": -13.3477,
+               "longitude": -44.6333
+            },
+            {
+               "cidade": "Cotegipe",
+               "latitude": -12.0228,
+               "longitude": -44.2566
+            },
+            {
+               "cidade": "Cravolândia",
+               "latitude": -13.3531,
+               "longitude": -39.8031
+            },
+            {
+               "cidade": "Crisópolis",
+               "latitude": -11.5059,
+               "longitude": -38.1515
+            },
+            {
+               "cidade": "Cristópolis",
+               "latitude": -12.2249,
+               "longitude": -44.4214
+            },
+            {
+               "cidade": "Cruz das Almas",
+               "latitude": -12.6675,
+               "longitude": -39.1008
+            },
+            {
+               "cidade": "Curaçá",
+               "latitude": -8.98458,
+               "longitude": -39.8997
+            },
+            {
+               "cidade": "Dário Meira",
+               "latitude": -14.4229,
+               "longitude": -39.9031
+            },
+            {
+               "cidade": "Dias d'Ávila",
+               "latitude": -12.6187,
+               "longitude": -38.2926
+            },
+            {
+               "cidade": "Dom Basílio",
+               "latitude": -13.7565,
+               "longitude": -41.7677
+            },
+            {
+               "cidade": "Dom Macedo Costa",
+               "latitude": -12.9016,
+               "longitude": -39.1923
+            },
+            {
+               "cidade": "Elísio Medrado",
+               "latitude": -12.9417,
+               "longitude": -39.5191
+            },
+            {
+               "cidade": "Encruzilhada",
+               "latitude": -15.5302,
+               "longitude": -40.9124
+            },
+            {
+               "cidade": "Entre Rios",
+               "latitude": -26.7225,
+               "longitude": -52.5585
+            },
+            {
+               "cidade": "Érico Cardoso",
+               "latitude": -13.4215,
+               "longitude": -42.1352
+            },
+            {
+               "cidade": "Esplanada",
+               "latitude": -11.7942,
+               "longitude": -37.9432
+            },
+            {
+               "cidade": "Euclides da Cunha",
+               "latitude": -10.5078,
+               "longitude": -39.0153
+            },
+            {
+               "cidade": "Eunápolis",
+               "latitude": -16.3715,
+               "longitude": -39.5821
+            },
+            {
+               "cidade": "Fátima",
+               "latitude": -10.616,
+               "longitude": -38.2239
+            },
+            {
+               "cidade": "Feira da Mata",
+               "latitude": -14.2044,
+               "longitude": -44.2744
+            },
+            {
+               "cidade": "Feira de Santana",
+               "latitude": -12.2664,
+               "longitude": -38.9663
+            },
+            {
+               "cidade": "Filadélfia",
+               "latitude": -10.7405,
+               "longitude": -40.1437
+            },
+            {
+               "cidade": "Firmino Alves",
+               "latitude": -14.9823,
+               "longitude": -39.9269
+            },
+            {
+               "cidade": "Floresta Azul",
+               "latitude": -14.8629,
+               "longitude": -39.6579
+            },
+            {
+               "cidade": "Formosa do Rio Preto",
+               "latitude": -11.0328,
+               "longitude": -45.193
+            },
+            {
+               "cidade": "Gandu",
+               "latitude": -13.7441,
+               "longitude": -39.4747
+            },
+            {
+               "cidade": "Gavião",
+               "latitude": -11.4688,
+               "longitude": -39.7757
+            },
+            {
+               "cidade": "Gentio do Ouro",
+               "latitude": -11.4342,
+               "longitude": -42.5077
+            },
+            {
+               "cidade": "Glória",
+               "latitude": -9.34382,
+               "longitude": -38.2544
+            },
+            {
+               "cidade": "Gongogi",
+               "latitude": -14.3195,
+               "longitude": -39.469
+            },
+            {
+               "cidade": "Governador Mangabeira",
+               "latitude": -12.5994,
+               "longitude": -39.0412
+            },
+            {
+               "cidade": "Guajeru",
+               "latitude": -14.5467,
+               "longitude": -41.9381
+            },
+            {
+               "cidade": "Guanambi",
+               "latitude": -14.2231,
+               "longitude": -42.7799
+            },
+            {
+               "cidade": "Guaratinga",
+               "latitude": -16.5833,
+               "longitude": -39.7847
+            },
+            {
+               "cidade": "Heliópolis",
+               "latitude": -10.6825,
+               "longitude": -38.2907
+            },
+            {
+               "cidade": "Iaçu",
+               "latitude": -12.7666,
+               "longitude": -40.2056
+            },
+            {
+               "cidade": "Ibiassucê",
+               "latitude": -14.2711,
+               "longitude": -42.257
+            },
+            {
+               "cidade": "Ibicaraí",
+               "latitude": -14.8579,
+               "longitude": -39.5914
+            },
+            {
+               "cidade": "Ibicoara",
+               "latitude": -13.4059,
+               "longitude": -41.284
+            },
+            {
+               "cidade": "Ibicuí",
+               "latitude": -14.845,
+               "longitude": -39.9879
+            },
+            {
+               "cidade": "Ibipeba",
+               "latitude": -11.6438,
+               "longitude": -42.0195
+            },
+            {
+               "cidade": "Ibipitanga",
+               "latitude": -12.8804,
+               "longitude": -42.4856
+            },
+            {
+               "cidade": "Ibiquera",
+               "latitude": -12.6444,
+               "longitude": -40.9338
+            },
+            {
+               "cidade": "Ibirapitanga",
+               "latitude": -14.1649,
+               "longitude": -39.3787
+            },
+            {
+               "cidade": "Ibirapuã",
+               "latitude": -17.6832,
+               "longitude": -40.1129
+            },
+            {
+               "cidade": "Ibirataia",
+               "latitude": -14.0643,
+               "longitude": -39.6459
+            },
+            {
+               "cidade": "Ibitiara",
+               "latitude": -12.6502,
+               "longitude": -42.2179
+            },
+            {
+               "cidade": "Ibititá",
+               "latitude": -11.5414,
+               "longitude": -41.9748
+            },
+            {
+               "cidade": "Ibotirama",
+               "latitude": -12.1779,
+               "longitude": -43.2167
+            },
+            {
+               "cidade": "Ichu",
+               "latitude": -11.7431,
+               "longitude": -39.1905
+            },
+            {
+               "cidade": "Igaporã",
+               "latitude": -13.774,
+               "longitude": -42.7155
+            },
+            {
+               "cidade": "Igrapiúna",
+               "latitude": -13.8295,
+               "longitude": -39.1361
+            },
+            {
+               "cidade": "Iguaí",
+               "latitude": -14.7528,
+               "longitude": -40.0894
+            },
+            {
+               "cidade": "Ilhéus",
+               "latitude": -14.793,
+               "longitude": -39.046
+            },
+            {
+               "cidade": "Inhambupe",
+               "latitude": -11.781,
+               "longitude": -38.355
+            },
+            {
+               "cidade": "Ipecaetá",
+               "latitude": -12.3028,
+               "longitude": -39.3069
+            },
+            {
+               "cidade": "Ipiaú",
+               "latitude": -14.1226,
+               "longitude": -39.7353
+            },
+            {
+               "cidade": "Ipirá",
+               "latitude": -12.1561,
+               "longitude": -39.7359
+            },
+            {
+               "cidade": "Ipupiara",
+               "latitude": -11.8219,
+               "longitude": -42.6179
+            },
+            {
+               "cidade": "Irajuba",
+               "latitude": -13.2563,
+               "longitude": -40.0848
+            },
+            {
+               "cidade": "Iramaia",
+               "latitude": -13.2902,
+               "longitude": -40.9595
+            },
+            {
+               "cidade": "Iraquara",
+               "latitude": -12.2429,
+               "longitude": -41.6155
+            },
+            {
+               "cidade": "Irará",
+               "latitude": -12.0504,
+               "longitude": -38.7631
+            },
+            {
+               "cidade": "Irecê",
+               "latitude": -11.3033,
+               "longitude": -41.8535
+            },
+            {
+               "cidade": "Itabela",
+               "latitude": -16.5732,
+               "longitude": -39.5593
+            },
+            {
+               "cidade": "Itaberaba",
+               "latitude": -12.5242,
+               "longitude": -40.3059
+            },
+            {
+               "cidade": "Itabuna",
+               "latitude": -14.7876,
+               "longitude": -39.2781
+            },
+            {
+               "cidade": "Itacaré",
+               "latitude": -14.2784,
+               "longitude": -38.9959
+            },
+            {
+               "cidade": "Itaeté",
+               "latitude": -12.9831,
+               "longitude": -40.9677
+            },
+            {
+               "cidade": "Itagi",
+               "latitude": -14.1615,
+               "longitude": -40.0131
+            },
+            {
+               "cidade": "Itagibá",
+               "latitude": -14.2782,
+               "longitude": -39.8449
+            },
+            {
+               "cidade": "Itagimirim",
+               "latitude": -16.0819,
+               "longitude": -39.6133
+            },
+            {
+               "cidade": "Itaguaçu da Bahia",
+               "latitude": -11.0147,
+               "longitude": -42.3997
+            },
+            {
+               "cidade": "Itaju do Colônia",
+               "latitude": -15.1366,
+               "longitude": -39.7283
+            },
+            {
+               "cidade": "Itajuípe",
+               "latitude": -14.6788,
+               "longitude": -39.3698
+            },
+            {
+               "cidade": "Itamaraju",
+               "latitude": -17.0378,
+               "longitude": -39.5386
+            },
+            {
+               "cidade": "Itamari",
+               "latitude": -13.7782,
+               "longitude": -39.683
+            },
+            {
+               "cidade": "Itambé",
+               "latitude": -15.2429,
+               "longitude": -40.63
+            },
+            {
+               "cidade": "Itanagra",
+               "latitude": -12.2614,
+               "longitude": -38.0436
+            },
+            {
+               "cidade": "Itanhém",
+               "latitude": -17.1642,
+               "longitude": -40.3321
+            },
+            {
+               "cidade": "Itaparica",
+               "latitude": -12.8932,
+               "longitude": -38.68
+            },
+            {
+               "cidade": "Itapé",
+               "latitude": -14.8876,
+               "longitude": -39.4239
+            },
+            {
+               "cidade": "Itapebi",
+               "latitude": -15.9551,
+               "longitude": -39.5329
+            },
+            {
+               "cidade": "Itapetinga",
+               "latitude": -15.2475,
+               "longitude": -40.2482
+            },
+            {
+               "cidade": "Itapicuru",
+               "latitude": -11.3088,
+               "longitude": -38.2262
+            },
+            {
+               "cidade": "Itapitanga",
+               "latitude": -14.4139,
+               "longitude": -39.5657
+            },
+            {
+               "cidade": "Itaquara",
+               "latitude": -13.4459,
+               "longitude": -39.9378
+            },
+            {
+               "cidade": "Itarantim",
+               "latitude": -15.6528,
+               "longitude": -40.065
+            },
+            {
+               "cidade": "Itatim",
+               "latitude": -12.7099,
+               "longitude": -39.6952
+            },
+            {
+               "cidade": "Itiruçu",
+               "latitude": -13.529,
+               "longitude": -40.1472
+            },
+            {
+               "cidade": "Itiúba",
+               "latitude": -10.6948,
+               "longitude": -39.8446
+            },
+            {
+               "cidade": "Itororó",
+               "latitude": -15.11,
+               "longitude": -40.0684
+            },
+            {
+               "cidade": "Ituaçu",
+               "latitude": -13.8107,
+               "longitude": -41.3003
+            },
+            {
+               "cidade": "Ituberá",
+               "latitude": -13.7249,
+               "longitude": -39.1481
+            },
+            {
+               "cidade": "Iuiú",
+               "latitude": -14.4054,
+               "longitude": -43.5595
+            },
+            {
+               "cidade": "Jaborandi",
+               "latitude": -20.6884,
+               "longitude": -48.4112
+            },
+            {
+               "cidade": "Jacaraci",
+               "latitude": -14.8541,
+               "longitude": -42.4329
+            },
+            {
+               "cidade": "Jacobina",
+               "latitude": -11.1812,
+               "longitude": -40.5117
+            },
+            {
+               "cidade": "Jaguaquara",
+               "latitude": -13.5248,
+               "longitude": -39.964
+            },
+            {
+               "cidade": "Jaguarari",
+               "latitude": -10.2569,
+               "longitude": -40.1999
+            },
+            {
+               "cidade": "Jaguaripe",
+               "latitude": -13.1109,
+               "longitude": -38.8939
+            },
+            {
+               "cidade": "Jandaíra",
+               "latitude": -11.5616,
+               "longitude": -37.7853
+            },
+            {
+               "cidade": "Jequié",
+               "latitude": -13.8509,
+               "longitude": -40.0877
+            },
+            {
+               "cidade": "Jeremoabo",
+               "latitude": -10.0685,
+               "longitude": -38.3471
+            },
+            {
+               "cidade": "Jiquiriçá",
+               "latitude": -13.2621,
+               "longitude": -39.5737
+            },
+            {
+               "cidade": "Jitaúna",
+               "latitude": -14.0131,
+               "longitude": -39.8969
+            },
+            {
+               "cidade": "João Dourado",
+               "latitude": -11.3486,
+               "longitude": -41.6548
+            },
+            {
+               "cidade": "Juazeiro",
+               "latitude": -9.41622,
+               "longitude": -40.5033
+            },
+            {
+               "cidade": "Jucuruçu",
+               "latitude": -16.8488,
+               "longitude": -40.1641
+            },
+            {
+               "cidade": "Jussara",
+               "latitude": -23.6219,
+               "longitude": -52.4693
+            },
+            {
+               "cidade": "Jussari",
+               "latitude": -15.192,
+               "longitude": -39.491
+            },
+            {
+               "cidade": "Jussiape",
+               "latitude": -13.5155,
+               "longitude": -41.5882
+            },
+            {
+               "cidade": "Lafaiete Coutinho",
+               "latitude": -13.6541,
+               "longitude": -40.2119
+            },
+            {
+               "cidade": "Lagoa Real",
+               "latitude": -14.0334,
+               "longitude": -42.1328
+            },
+            {
+               "cidade": "Laje",
+               "latitude": -13.1673,
+               "longitude": -39.4213
+            },
+            {
+               "cidade": "Lajedão",
+               "latitude": -17.6056,
+               "longitude": -40.3383
+            },
+            {
+               "cidade": "Lajedinho",
+               "latitude": -12.3529,
+               "longitude": -40.9048
+            },
+            {
+               "cidade": "Lajedo do Tabocal",
+               "latitude": -13.4663,
+               "longitude": -40.2204
+            },
+            {
+               "cidade": "Lamarão",
+               "latitude": -11.773,
+               "longitude": -38.887
+            },
+            {
+               "cidade": "Lapão",
+               "latitude": -11.3851,
+               "longitude": -41.8286
+            },
+            {
+               "cidade": "Lauro de Freitas",
+               "latitude": -12.8978,
+               "longitude": -38.321
+            },
+            {
+               "cidade": "Lençóis",
+               "latitude": -12.5616,
+               "longitude": -41.3928
+            },
+            {
+               "cidade": "Licínio de Almeida",
+               "latitude": -14.6842,
+               "longitude": -42.5095
+            },
+            {
+               "cidade": "Livramento de Nossa Senhora",
+               "latitude": -13.6369,
+               "longitude": -41.8432
+            },
+            {
+               "cidade": "Luís Eduardo Magalhães",
+               "latitude": -12.0956,
+               "longitude": -45.7866
+            },
+            {
+               "cidade": "Macajuba",
+               "latitude": -12.1326,
+               "longitude": -40.3571
+            },
+            {
+               "cidade": "Macarani",
+               "latitude": -15.5646,
+               "longitude": -40.4209
+            },
+            {
+               "cidade": "Macaúbas",
+               "latitude": -13.0186,
+               "longitude": -42.6945
+            },
+            {
+               "cidade": "Macururé",
+               "latitude": -9.16226,
+               "longitude": -39.0518
+            },
+            {
+               "cidade": "Madre de Deus",
+               "latitude": -12.7446,
+               "longitude": -38.6153
+            },
+            {
+               "cidade": "Maetinga",
+               "latitude": -14.6623,
+               "longitude": -41.4915
+            },
+            {
+               "cidade": "Maiquinique",
+               "latitude": -15.624,
+               "longitude": -40.2587
+            },
+            {
+               "cidade": "Mairi",
+               "latitude": -11.7107,
+               "longitude": -40.1437
+            },
+            {
+               "cidade": "Malhada",
+               "latitude": -14.3371,
+               "longitude": -43.7686
+            },
+            {
+               "cidade": "Malhada de Pedras",
+               "latitude": -14.3847,
+               "longitude": -41.8842
+            },
+            {
+               "cidade": "Manoel Vitorino",
+               "latitude": -14.1476,
+               "longitude": -40.2399
+            },
+            {
+               "cidade": "Mansidão",
+               "latitude": -10.7227,
+               "longitude": -44.0428
+            },
+            {
+               "cidade": "Maracás",
+               "latitude": -13.4355,
+               "longitude": -40.4323
+            },
+            {
+               "cidade": "Maragogipe",
+               "latitude": -12.776,
+               "longitude": -38.9175
+            },
+            {
+               "cidade": "Maraú",
+               "latitude": -14.1035,
+               "longitude": -39.0137
+            },
+            {
+               "cidade": "Marcionílio Souza",
+               "latitude": -13.0064,
+               "longitude": -40.5295
+            },
+            {
+               "cidade": "Mascote",
+               "latitude": -15.5542,
+               "longitude": -39.3016
+            },
+            {
+               "cidade": "Mata de São João",
+               "latitude": -12.5307,
+               "longitude": -38.3009
+            },
+            {
+               "cidade": "Matina",
+               "latitude": -13.9109,
+               "longitude": -42.8439
+            },
+            {
+               "cidade": "Medeiros Neto",
+               "latitude": -17.3707,
+               "longitude": -40.2238
+            },
+            {
+               "cidade": "Miguel Calmon",
+               "latitude": -11.4299,
+               "longitude": -40.6031
+            },
+            {
+               "cidade": "Milagres",
+               "latitude": -12.8646,
+               "longitude": -39.8611
+            },
+            {
+               "cidade": "Mirangaba",
+               "latitude": -10.961,
+               "longitude": -40.574
+            },
+            {
+               "cidade": "Mirante",
+               "latitude": -14.2385,
+               "longitude": -40.7718
+            },
+            {
+               "cidade": "Monte Santo",
+               "latitude": -10.4374,
+               "longitude": -39.3321
+            },
+            {
+               "cidade": "Morpará",
+               "latitude": -11.5569,
+               "longitude": -43.2766
+            },
+            {
+               "cidade": "Morro do Chapéu",
+               "latitude": -11.5488,
+               "longitude": -41.1565
+            },
+            {
+               "cidade": "Mortugaba",
+               "latitude": -15.0225,
+               "longitude": -42.3727
+            },
+            {
+               "cidade": "Mucugê",
+               "latitude": -13.0053,
+               "longitude": -41.3703
+            },
+            {
+               "cidade": "Mucuri",
+               "latitude": -18.0754,
+               "longitude": -39.5565
+            },
+            {
+               "cidade": "Mulungu do Morro",
+               "latitude": -11.9648,
+               "longitude": -41.6374
+            },
+            {
+               "cidade": "Mundo Novo",
+               "latitude": -13.7729,
+               "longitude": -50.2814
+            },
+            {
+               "cidade": "Muniz Ferreira",
+               "latitude": -13.0092,
+               "longitude": -39.1092
+            },
+            {
+               "cidade": "Muquém de São Francisco",
+               "latitude": -12.065,
+               "longitude": -43.5497
+            },
+            {
+               "cidade": "Muritiba",
+               "latitude": -12.6329,
+               "longitude": -38.9921
+            },
+            {
+               "cidade": "Mutuípe",
+               "latitude": -13.2284,
+               "longitude": -39.5044
+            },
+            {
+               "cidade": "Nazaré",
+               "latitude": -6.37496,
+               "longitude": -47.6643
+            },
+            {
+               "cidade": "Nilo Peçanha",
+               "latitude": -13.604,
+               "longitude": -39.1091
+            },
+            {
+               "cidade": "Nordestina",
+               "latitude": -10.8192,
+               "longitude": -39.4297
+            },
+            {
+               "cidade": "Nova Canaã",
+               "latitude": -14.7912,
+               "longitude": -40.1458
+            },
+            {
+               "cidade": "Nova Fátima",
+               "latitude": -11.6031,
+               "longitude": -39.6302
+            },
+            {
+               "cidade": "Nova Ibiá",
+               "latitude": -13.812,
+               "longitude": -39.6182
+            },
+            {
+               "cidade": "Nova Itarana",
+               "latitude": -13.0241,
+               "longitude": -40.0653
+            },
+            {
+               "cidade": "Nova Redenção",
+               "latitude": -12.815,
+               "longitude": -41.0748
+            },
+            {
+               "cidade": "Nova Soure",
+               "latitude": -11.2329,
+               "longitude": -38.4871
+            },
+            {
+               "cidade": "Nova Viçosa",
+               "latitude": -17.8926,
+               "longitude": -39.3743
+            },
+            {
+               "cidade": "Novo Horizonte",
+               "latitude": -12.8083,
+               "longitude": -42.1682
+            },
+            {
+               "cidade": "Novo Triunfo",
+               "latitude": -10.3182,
+               "longitude": -38.4014
+            },
+            {
+               "cidade": "Olindina",
+               "latitude": -11.3497,
+               "longitude": -38.3379
+            },
+            {
+               "cidade": "Oliveira dos Brejinhos",
+               "latitude": -12.3132,
+               "longitude": -42.8969
+            },
+            {
+               "cidade": "Ouriçangas",
+               "latitude": -12.0175,
+               "longitude": -38.6166
+            },
+            {
+               "cidade": "Ourolândia",
+               "latitude": -10.9578,
+               "longitude": -41.0756
+            },
+            {
+               "cidade": "Palmas de Monte Alto",
+               "latitude": -14.2676,
+               "longitude": -43.1609
+            },
+            {
+               "cidade": "Palmeiras",
+               "latitude": -12.5059,
+               "longitude": -41.5809
+            },
+            {
+               "cidade": "Paramirim",
+               "latitude": -13.4388,
+               "longitude": -42.2395
+            },
+            {
+               "cidade": "Paratinga",
+               "latitude": -12.687,
+               "longitude": -43.1798
+            },
+            {
+               "cidade": "Paripiranga",
+               "latitude": -10.6859,
+               "longitude": -37.8626
+            },
+            {
+               "cidade": "Pau Brasil",
+               "latitude": -15.4572,
+               "longitude": -39.6458
+            },
+            {
+               "cidade": "Paulo Afonso",
+               "latitude": -9.3983,
+               "longitude": -38.2216
+            },
+            {
+               "cidade": "Pé de Serra",
+               "latitude": -11.8313,
+               "longitude": -39.611
+            },
+            {
+               "cidade": "Pedrão",
+               "latitude": -12.1491,
+               "longitude": -38.6487
+            },
+            {
+               "cidade": "Pedro Alexandre",
+               "latitude": -10.012,
+               "longitude": -37.8932
+            },
+            {
+               "cidade": "Piatã",
+               "latitude": -13.1465,
+               "longitude": -41.7702
+            },
+            {
+               "cidade": "Pilão Arcado",
+               "latitude": -10.0051,
+               "longitude": -42.4936
+            },
+            {
+               "cidade": "Pindaí",
+               "latitude": -14.4921,
+               "longitude": -42.686
+            },
+            {
+               "cidade": "Pindobaçu",
+               "latitude": -10.7433,
+               "longitude": -40.3675
+            },
+            {
+               "cidade": "Pintadas",
+               "latitude": -11.8117,
+               "longitude": -39.9009
+            },
+            {
+               "cidade": "Piraí do Norte",
+               "latitude": -13.759,
+               "longitude": -39.3836
+            },
+            {
+               "cidade": "Piripá",
+               "latitude": -14.9444,
+               "longitude": -41.7168
+            },
+            {
+               "cidade": "Piritiba",
+               "latitude": -11.73,
+               "longitude": -40.5587
+            },
+            {
+               "cidade": "Planaltino",
+               "latitude": -13.2618,
+               "longitude": -40.3695
+            },
+            {
+               "cidade": "Planalto",
+               "latitude": -25.7211,
+               "longitude": -53.7642
+            },
+            {
+               "cidade": "Poções",
+               "latitude": -14.5234,
+               "longitude": -40.3634
+            },
+            {
+               "cidade": "Pojuca",
+               "latitude": -12.4303,
+               "longitude": -38.3374
+            },
+            {
+               "cidade": "Ponto Novo",
+               "latitude": -10.8653,
+               "longitude": -40.1311
+            },
+            {
+               "cidade": "Porto Seguro",
+               "latitude": -16.4435,
+               "longitude": -39.0643
+            },
+            {
+               "cidade": "Potiraguá",
+               "latitude": -15.5943,
+               "longitude": -39.8638
+            },
+            {
+               "cidade": "Prado",
+               "latitude": -17.3364,
+               "longitude": -39.2227
+            },
+            {
+               "cidade": "Presidente Dutra",
+               "latitude": -5.2898,
+               "longitude": -44.495
+            },
+            {
+               "cidade": "Presidente Jânio Quadros",
+               "latitude": -14.6885,
+               "longitude": -41.6798
+            },
+            {
+               "cidade": "Presidente Tancredo Neves",
+               "latitude": -13.4471,
+               "longitude": -39.4203
+            },
+            {
+               "cidade": "Queimadas",
+               "latitude": -10.9736,
+               "longitude": -39.6293
+            },
+            {
+               "cidade": "Quijingue",
+               "latitude": -10.7505,
+               "longitude": -39.2137
+            },
+            {
+               "cidade": "Quixabeira",
+               "latitude": -11.4031,
+               "longitude": -40.12
+            },
+            {
+               "cidade": "Rafael Jambeiro",
+               "latitude": -12.4053,
+               "longitude": -39.5007
+            },
+            {
+               "cidade": "Remanso",
+               "latitude": -9.61944,
+               "longitude": -42.0848
+            },
+            {
+               "cidade": "Retirolândia",
+               "latitude": -11.4832,
+               "longitude": -39.4234
+            },
+            {
+               "cidade": "Riachão das Neves",
+               "latitude": -11.7508,
+               "longitude": -44.9143
+            },
+            {
+               "cidade": "Riachão do Jacuípe",
+               "latitude": -11.8067,
+               "longitude": -39.3818
+            },
+            {
+               "cidade": "Riacho de Santana",
+               "latitude": -13.6059,
+               "longitude": -42.9397
+            },
+            {
+               "cidade": "Ribeira do Amparo",
+               "latitude": -11.0421,
+               "longitude": -38.4242
+            },
+            {
+               "cidade": "Ribeira do Pombal",
+               "latitude": -10.8373,
+               "longitude": -38.5382
+            },
+            {
+               "cidade": "Ribeirão do Largo",
+               "latitude": -15.4508,
+               "longitude": -40.7441
+            },
+            {
+               "cidade": "Rio de Contas",
+               "latitude": -13.5852,
+               "longitude": -41.8048
+            },
+            {
+               "cidade": "Rio do Antônio",
+               "latitude": -14.4071,
+               "longitude": -42.0721
+            },
+            {
+               "cidade": "Rio do Pires",
+               "latitude": -13.1185,
+               "longitude": -42.2902
+            },
+            {
+               "cidade": "Rio Real",
+               "latitude": -11.4814,
+               "longitude": -37.9332
+            },
+            {
+               "cidade": "Rodelas",
+               "latitude": -8.85021,
+               "longitude": -38.78
+            },
+            {
+               "cidade": "Ruy Barbosa",
+               "latitude": -12.2816,
+               "longitude": -40.4931
+            },
+            {
+               "cidade": "Salinas da Margarida",
+               "latitude": -12.873,
+               "longitude": -38.7562
+            },
+            {
+               "cidade": "Salvador",
+               "latitude": -12.9718,
+               "longitude": -38.5011
+            },
+            {
+               "cidade": "Santa Bárbara",
+               "latitude": -19.9604,
+               "longitude": -43.4101
+            },
+            {
+               "cidade": "Santa Brígida",
+               "latitude": -9.73227,
+               "longitude": -38.1209
+            },
+            {
+               "cidade": "Santa Cruz Cabrália",
+               "latitude": -16.2825,
+               "longitude": -39.0295
+            },
+            {
+               "cidade": "Santa Cruz da Vitória",
+               "latitude": -14.964,
+               "longitude": -39.8115
+            },
+            {
+               "cidade": "Santa Inês",
+               "latitude": -3.65112,
+               "longitude": -45.3774
+            },
+            {
+               "cidade": "Santa Luzia",
+               "latitude": -6.86092,
+               "longitude": -36.9178
+            },
+            {
+               "cidade": "Santa Maria da Vitória",
+               "latitude": -13.3859,
+               "longitude": -44.2011
+            },
+            {
+               "cidade": "Santa Rita de Cássia",
+               "latitude": -11.0063,
+               "longitude": -44.5255
+            },
+            {
+               "cidade": "Santa Teresinha",
+               "latitude": -7.07964,
+               "longitude": -37.4435
+            },
+            {
+               "cidade": "Santaluz",
+               "latitude": -11.2508,
+               "longitude": -39.375
+            },
+            {
+               "cidade": "Santana",
+               "latitude": -0.045434,
+               "longitude": -51.1729
+            },
+            {
+               "cidade": "Santanópolis",
+               "latitude": -12.0311,
+               "longitude": -38.8694
+            },
+            {
+               "cidade": "Santo Amaro",
+               "latitude": -12.5472,
+               "longitude": -38.7137
+            },
+            {
+               "cidade": "Santo Antônio de Jesus",
+               "latitude": -12.9614,
+               "longitude": -39.2584
+            },
+            {
+               "cidade": "Santo Estêvão",
+               "latitude": -12.428,
+               "longitude": -39.2505
+            },
+            {
+               "cidade": "São Desidério",
+               "latitude": -12.3572,
+               "longitude": -44.9769
+            },
+            {
+               "cidade": "São Domingos",
+               "latitude": -13.621,
+               "longitude": -46.7415
+            },
+            {
+               "cidade": "São Felipe",
+               "latitude": -12.8394,
+               "longitude": -39.0893
+            },
+            {
+               "cidade": "São Félix",
+               "latitude": -12.6104,
+               "longitude": -38.9727
+            },
+            {
+               "cidade": "São Félix do Coribe",
+               "latitude": -13.4019,
+               "longitude": -44.1837
+            },
+            {
+               "cidade": "São Francisco do Conde",
+               "latitude": -12.6183,
+               "longitude": -38.6786
+            },
+            {
+               "cidade": "São Gabriel",
+               "latitude": -11.2175,
+               "longitude": -41.8843
+            },
+            {
+               "cidade": "São Gonçalo dos Campos",
+               "latitude": -12.4331,
+               "longitude": -38.9663
+            },
+            {
+               "cidade": "São José da Vitória",
+               "latitude": -15.0787,
+               "longitude": -39.3437
+            },
+            {
+               "cidade": "São José do Jacuípe",
+               "latitude": -11.4137,
+               "longitude": -39.8669
+            },
+            {
+               "cidade": "São Miguel das Matas",
+               "latitude": -13.0434,
+               "longitude": -39.4578
+            },
+            {
+               "cidade": "São Sebastião do Passé",
+               "latitude": -12.5123,
+               "longitude": -38.4905
+            },
+            {
+               "cidade": "Sapeaçu",
+               "latitude": -12.7208,
+               "longitude": -39.1824
+            },
+            {
+               "cidade": "Sátiro Dias",
+               "latitude": -11.5929,
+               "longitude": -38.5938
+            },
+            {
+               "cidade": "Saubara",
+               "latitude": -12.7387,
+               "longitude": -38.7625
+            },
+            {
+               "cidade": "Saúde",
+               "latitude": -10.9428,
+               "longitude": -40.4155
+            },
+            {
+               "cidade": "Seabra",
+               "latitude": -12.4169,
+               "longitude": -41.7722
+            },
+            {
+               "cidade": "Sebastião Laranjeiras",
+               "latitude": -14.571,
+               "longitude": -42.9434
+            },
+            {
+               "cidade": "Senhor do Bonfim",
+               "latitude": -10.4594,
+               "longitude": -40.1865
+            },
+            {
+               "cidade": "Sento Sé",
+               "latitude": -9.74138,
+               "longitude": -41.8786
+            },
+            {
+               "cidade": "Serra do Ramalho",
+               "latitude": -13.5659,
+               "longitude": -43.5929
+            },
+            {
+               "cidade": "Serra Dourada",
+               "latitude": -12.759,
+               "longitude": -43.9504
+            },
+            {
+               "cidade": "Serra Preta",
+               "latitude": -12.156,
+               "longitude": -39.3305
+            },
+            {
+               "cidade": "Serrinha",
+               "latitude": -11.6584,
+               "longitude": -39.01
+            },
+            {
+               "cidade": "Serrolândia",
+               "latitude": -11.4085,
+               "longitude": -40.2983
+            },
+            {
+               "cidade": "Simões Filho",
+               "latitude": -12.7866,
+               "longitude": -38.4029
+            },
+            {
+               "cidade": "Sítio do Mato",
+               "latitude": -13.0801,
+               "longitude": -43.4689
+            },
+            {
+               "cidade": "Sítio do Quinto",
+               "latitude": -10.3545,
+               "longitude": -38.2213
+            },
+            {
+               "cidade": "Sobradinho",
+               "latitude": -29.4194,
+               "longitude": -53.0326
+            },
+            {
+               "cidade": "Souto Soares",
+               "latitude": -12.088,
+               "longitude": -41.6427
+            },
+            {
+               "cidade": "Tabocas do Brejo Velho",
+               "latitude": -12.7026,
+               "longitude": -44.0075
+            },
+            {
+               "cidade": "Tanhaçu",
+               "latitude": -14.0197,
+               "longitude": -41.2473
+            },
+            {
+               "cidade": "Tanque Novo",
+               "latitude": -13.5485,
+               "longitude": -42.4934
+            },
+            {
+               "cidade": "Tanquinho",
+               "latitude": -11.968,
+               "longitude": -39.1033
+            },
+            {
+               "cidade": "Taperoá",
+               "latitude": -7.20629,
+               "longitude": -36.8245
+            },
+            {
+               "cidade": "Tapiramutá",
+               "latitude": -11.8475,
+               "longitude": -40.7927
+            },
+            {
+               "cidade": "Teixeira de Freitas",
+               "latitude": -17.5399,
+               "longitude": -39.74
+            },
+            {
+               "cidade": "Teodoro Sampaio",
+               "latitude": -22.5299,
+               "longitude": -52.1682
+            },
+            {
+               "cidade": "Teofilândia",
+               "latitude": -11.4827,
+               "longitude": -38.9913
+            },
+            {
+               "cidade": "Teolândia",
+               "latitude": -13.5896,
+               "longitude": -39.484
+            },
+            {
+               "cidade": "Terra Nova",
+               "latitude": -8.22244,
+               "longitude": -39.3825
+            },
+            {
+               "cidade": "Tremedal",
+               "latitude": -14.9736,
+               "longitude": -41.4142
+            },
+            {
+               "cidade": "Tucano",
+               "latitude": -10.9584,
+               "longitude": -38.7894
+            },
+            {
+               "cidade": "Uauá",
+               "latitude": -9.83325,
+               "longitude": -39.4794
+            },
+            {
+               "cidade": "Ubaíra",
+               "latitude": -13.2714,
+               "longitude": -39.666
+            },
+            {
+               "cidade": "Ubaitaba",
+               "latitude": -14.303,
+               "longitude": -39.3222
+            },
+            {
+               "cidade": "Ubatã",
+               "latitude": -14.2063,
+               "longitude": -39.5207
+            },
+            {
+               "cidade": "Uibaí",
+               "latitude": -11.3394,
+               "longitude": -42.1354
+            },
+            {
+               "cidade": "Umburanas",
+               "latitude": -10.7339,
+               "longitude": -41.3234
+            },
+            {
+               "cidade": "Una",
+               "latitude": -15.2791,
+               "longitude": -39.0765
+            },
+            {
+               "cidade": "Urandi",
+               "latitude": -14.7678,
+               "longitude": -42.6498
+            },
+            {
+               "cidade": "Uruçuca",
+               "latitude": -14.5963,
+               "longitude": -39.2851
+            },
+            {
+               "cidade": "Utinga",
+               "latitude": -12.0783,
+               "longitude": -41.0954
+            },
+            {
+               "cidade": "Valença",
+               "latitude": -22.2445,
+               "longitude": -43.7129
+            },
+            {
+               "cidade": "Valente",
+               "latitude": -11.4062,
+               "longitude": -39.457
+            },
+            {
+               "cidade": "Várzea da Roça",
+               "latitude": -11.6005,
+               "longitude": -40.1328
+            },
+            {
+               "cidade": "Várzea do Poço",
+               "latitude": -11.5273,
+               "longitude": -40.3149
+            },
+            {
+               "cidade": "Várzea Nova",
+               "latitude": -11.2557,
+               "longitude": -40.9432
+            },
+            {
+               "cidade": "Varzedo",
+               "latitude": -12.9672,
+               "longitude": -39.3919
+            },
+            {
+               "cidade": "Vera Cruz",
+               "latitude": -22.2183,
+               "longitude": -49.8207
+            },
+            {
+               "cidade": "Vereda",
+               "latitude": -17.2183,
+               "longitude": -40.0974
+            },
+            {
+               "cidade": "Vitória da Conquista",
+               "latitude": -14.8615,
+               "longitude": -40.8442
+            },
+            {
+               "cidade": "Wagner",
+               "latitude": -12.2819,
+               "longitude": -41.1715
+            },
+            {
+               "cidade": "Wanderley",
+               "latitude": -12.1144,
+               "longitude": -43.8958
+            },
+            {
+               "cidade": "Wenceslau Guimarães",
+               "latitude": -13.6908,
+               "longitude": -39.4762
+            },
+            {
+               "cidade": "Xique-Xique",
+               "latitude": -10.823,
+               "longitude": -42.7245
+            }
+         ]
+      }
+   ]
+}

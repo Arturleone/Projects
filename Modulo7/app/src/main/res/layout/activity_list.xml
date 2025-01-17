@@ -16,10 +16,10 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="@+id/reciclerview"
-        app:layout_constraintEnd_toEndOf="@+id/reciclerview"
-        app:layout_constraintStart_toStartOf="@+id/reciclerview"
-        app:layout_constraintTop_toTopOf="@+id/reciclerview" />
+        app:layout_constraintBottom_toBottomOf="@+id/listview"
+        app:layout_constraintEnd_toEndOf="@+id/listview"
+        app:layout_constraintStart_toStartOf="@+id/listview"
+        app:layout_constraintTop_toTopOf="@+id/listview" />
 
 
     <TextView
@@ -45,15 +45,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/reciclerview"
+    <ListView
+        android:id="@+id/listview"
         android:layout_width="1101dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/criarAvalia" />
-
+        app:layout_constraintTop_toBottomOf="@+id/criarAvalia"/>
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"

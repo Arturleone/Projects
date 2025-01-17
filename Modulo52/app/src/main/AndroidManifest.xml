@@ -23,7 +23,7 @@
             android:value="AIzaSyBavrBMWZ95acGkTjCXsVN1gCXfVOVJQGw"/>
 
         <activity
-            android:name=".MainActivity"
+            android:name=".AtividadePrincipal"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

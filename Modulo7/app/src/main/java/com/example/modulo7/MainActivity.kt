@@ -69,15 +69,14 @@ class MainActivity : AppCompatActivity() {
         val comentario = findViewById<EditText>(R.id.comentario).text.toString()
         val rating = findViewById<RatingBar>(R.id.ratingBar).rating
 
-        // Criar objeto de avaliação
-        val avaliacao = mapOf(
-            "nomeDoLocal" to nomeDoLocal,
-            "nomeDoUsuario" to nomeDoUsuario,
-            "cidade" to cidade,
-            "comentario" to comentario,
-            "rating" to rating,
-            "status" to "Pendente"
-        )
+        val avaliacao = Avaliacao(
+            "$nomeDoLocal",
+            "$nomeDoUsuario",
+            "$cidade",
+            "$comentario",
+            rating,
+            "Pendente")
+
 
         // Salvar no Firebase
         val avaliacaoRef = database.child("avaliacoes").push()
@@ -105,4 +104,5 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
 }

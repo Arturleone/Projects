@@ -46,7 +46,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation ("com.google.android.gms:play-services-maps:18.1.0")
-    implementation ("com.google.android.gms:play-services-location:18.0.0")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
     implementation ("com.google.maps:google-maps-services:0.18.0")
     implementation ("com.squareup.okhttp3:okhttp:4.10.0")
     implementation ("com.google.android.libraries.places:places:2.7.0")

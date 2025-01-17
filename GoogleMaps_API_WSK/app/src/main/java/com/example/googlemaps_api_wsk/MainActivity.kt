@@ -49,6 +49,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         // Inicializar o botão "Traçar Rota" como desabilitado
         traceRouteButton.isEnabled = false
 
+
         // Configurar o mapa
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
