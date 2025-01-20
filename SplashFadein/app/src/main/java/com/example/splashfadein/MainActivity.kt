@@ -1,41 +1,87 @@
 package com.example.splashfadein
 
-import android.animation.ObjectAnimator
 import android.content.Intent
-import android.graphics.Color
+import android.content.SharedPreferences
+import android.graphics.LinearGradient
+import android.graphics.Shader
 import android.os.Bundle
-import android.view.animation.AnimationUtils
+import android.os.Handler
+import android.os.Looper
+import android.view.View
+import android.view.animation.AlphaAnimation
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 class SplashScreen : AppCompatActivity() {
+
+    private val tempoExibicaoSplash = 3000L
+    private val tempoExibicaoSplashPrimeiraVez = 10000L
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Configurando animação de Fade In
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+
         val textView = findViewById<TextView>(R.id.textview)
-        val fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in)
-        textView.startAnimation(fadeIn)
 
-        // Configurando animação de troca de gradiente
-        val gradientAnimator = ObjectAnimator.ofArgb(
-            textView,
-            "textColor",
-            Color.RED,
-            Color.BLUE,
-            Color.GREEN
-        )
-        gradientAnimator.duration = 3000
-        gradientAnimator.repeatCount = ObjectAnimator.INFINITE
-        gradientAnimator.repeatMode = ObjectAnimator.REVERSE
-        gradientAnimator.start()
+        aplicarAnimacoesNoTexto(textView)
 
-        // Espera de 3 segundos antes de ir para a próxima Activity
-        textView.postDelayed({
-            startActivity(Intent(this, Home::class.java))
+        val duracao = if (verificarSePrimeiraVez()) tempoExibicaoSplashPrimeiraVez else tempoExibicaoSplash
+
+        Handler().postDelayed({
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
-        }, 3000)
+        }, duracao)
+    }
+
+    private fun aplicarAnimacoesNoTexto(textView: TextView) {
+        aplicarAnimacaoDeAparecimentoGradual(textView)
+        iniciarAnimacaoDeGradienteNoTexto(textView)
+    }
+
+    private fun aplicarAnimacaoDeAparecimentoGradual(textView: TextView) {
+        val fadeIn = AlphaAnimation(0.0f, 1.0f).apply {
+            duration = 2000
+            fillAfter = true
+        }
+        textView.startAnimation(fadeIn)
+    }
+
+    private fun iniciarAnimacaoDeGradienteNoTexto(textView: TextView) {
+        val conjuntosDeCores = listOf(
+            intArrayOf(R.color.gradient_color_1, R.color.gradient_color_2, R.color.gradient_color_3),
+            intArrayOf(R.color.gradient_color_3, R.color.gradient_color_1, R.color.gradient_color_2),
+            intArrayOf(R.color.gradient_color_2, R.color.gradient_color_3, R.color.gradient_color_1)
+        )
+
+        var indiceConjuntoDeCorAtual = 0
+        val handler = Handler(Looper.getMainLooper())
+        val atualizadorDeGradiente = object : Runnable {
+            override fun run() {
+                val largura = textView.width.toFloat()
+                val shader = LinearGradient(0f, 0f, largura, 0f,
+                    conjuntosDeCores[indiceConjuntoDeCorAtual].map {
+                        ContextCompat.getColor(this@SplashScreen, it)
+                    }.toIntArray(),
+                    null, Shader.TileMode.CLAMP)
+                textView.paint.shader = shader
+                textView.invalidate()
+
+                indiceConjuntoDeCorAtual = (indiceConjuntoDeCorAtual + 1) % conjuntosDeCores.size
+                handler.postDelayed(this, 500)
+            }
+        }
+        handler.post(atualizadorDeGradiente)
+    }
+
+    private fun verificarSePrimeiraVez(): Boolean {
+        val sharedPreferences = getSharedPreferences("", MODE_PRIVATE)
+        val ePrimeiraVez = sharedPreferences.getBoolean("firstTime", true)
+        if (ePrimeiraVez) {
+            sharedPreferences.edit().putBoolean("firstTime", false).apply()
+        }
+        return ePrimeiraVez
     }
 }

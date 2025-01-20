@@ -5,4 +5,7 @@
     <color name="gradient_start">#FF5733</color>
     <color name="gradient_middle">#33FF57</color>
     <color name="gradient_end">#3357FF</color>
+    <color name="gradient_color_1">#283887</color>
+    <color name="gradient_color_2">#86D35A</color>
+    <color name="gradient_color_3">#62C285</color>
 </resources>
