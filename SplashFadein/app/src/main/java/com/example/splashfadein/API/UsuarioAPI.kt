@@ -18,6 +18,6 @@ interface UsuarioApi {
 
     // Método para listar todos os usuários
     @GET("/api/Usuarios")
-    fun listarUsuarios(): Call<List<UserDetailsResponse>>
+    fun listarUsuarios(): Call<List<UserDetails>>
 
 }

@@ -65,13 +65,4 @@ class HomeActivity : AppCompatActivity() {
             drawerLayout.openDrawer(GravityCompat.START)
         }
     }
-//
-//    // Função para carregar os Fragments dinamicamente
-//    private fun loadFragment(fragment: Fragment) {
-//        // Trocar o conteúdo do container de acordo com o fragmento
-//        val transaction = supportFragmentManager.beginTransaction()
-//        transaction.replace(R.id.container, fragment) // Substituir o conteúdo do FrameLayout
-//        transaction.addToBackStack(null) // Adicionar à pilha de navegação, para que o usuário possa voltar
-//        transaction.commit()
-//    }
 }

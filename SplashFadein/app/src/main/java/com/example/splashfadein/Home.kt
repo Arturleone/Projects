@@ -16,7 +16,7 @@ class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
         val textView7 = findViewById<TextView>(R.id.textView7)
         val textView6 = findViewById<TextView>(R.id.textView6)
         val userName = intent.getStringExtra("username")
@@ -27,13 +27,7 @@ class Home : AppCompatActivity() {
         textView6.text = userName
 
         textView7.text = email
-        countDown(30000) //inserir milisegundos desejados
-    }
-
-    //função para o "Onclick" do imageview
-    fun Logout(view: View) {
-        startActivity(Intent(this, LoginActivity::class.java))
-        finish()
+        countDown(30000)
     }
 
     //Função para puxar o horário
@@ -45,10 +39,12 @@ class Home : AppCompatActivity() {
             hourOfDay < 18 -> "Boa tarde"
             else -> "Boa noite"
         }
-
         val userName = "Usuário" //name do usuário
         return greeting
     }
+
+
+
 
     //Função para iniciar cronometro
     private fun countDown(millis: Long) {

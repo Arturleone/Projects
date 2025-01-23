@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
 
                 override fun onAuthenticationSucceeded(result: BiometricPrompt.AuthenticationResult) {
                     super.onAuthenticationSucceeded(result)
-                    Toast.makeText(this@MainActivity, "Autenticação bem-sucedida!", Toast.LENGTH_SHORT).show()
                     tentativas = 0
                     startActivity(Intent(this@MainActivity, HomeActivity::class.java))
                 }
@@ -42,9 +41,6 @@ class MainActivity : AppCompatActivity() {
                     if (tentativas >= 3) {
                         isAuthenticationCancelled = true
                         biometricPrompt?.cancelAuthentication()  // Cancelar a autenticação
-                        Toast.makeText(this@MainActivity, "Muitas tentativas falhas. Autenticação cancelada.", Toast.LENGTH_SHORT).show()
-                    } else {
-                        Toast.makeText(this@MainActivity, "Tentativa falha: $tentativas de 3.", Toast.LENGTH_SHORT).show()
                     }
                 }
 
@@ -62,9 +58,6 @@ class MainActivity : AppCompatActivity() {
                 biometricPrompt?.authenticate(promptInfo)
             }
 
-        }
-        else {
-            Toast.makeText(this, "Biometria não disponível neste dispositivo.", Toast.LENGTH_SHORT).show()
         }
     }
 
