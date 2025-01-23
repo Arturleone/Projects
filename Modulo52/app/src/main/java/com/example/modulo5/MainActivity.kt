@@ -19,7 +19,6 @@ import com.google.android.gms.location.*
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
-
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.Marker
@@ -30,6 +29,7 @@ class AtividadePrincipal : AppCompatActivity(), OnMapReadyCallback {
     // Configurações gerais do mapa e localização
     private lateinit var mapaGoogle: GoogleMap
     private lateinit var clienteLocalizacao: FusedLocationProviderClient
+
     private lateinit var requisicaoLocalizacao: LocationRequest
     private lateinit var retornoLocalizacao: LocationCallback
     private var marcadorLocalAtual: Marker? = null
@@ -48,13 +48,11 @@ class AtividadePrincipal : AppCompatActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Inicializando os serviços de localização e o mapa
         clienteLocalizacao = LocationServices.getFusedLocationProviderClient(this)
         configurarMapa()
         configurarServicosLocalizacao()
         configurarEntradaEndereco()
 
-        // Configuração dos botões de controle
         val botaoIniciar = findViewById<Button>(R.id.button)
         val botaoCancelar = findViewById<Button>(R.id.button2)
         val campoTexto: EditText = findViewById(R.id.editTextText)

@@ -58,10 +58,8 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     private val solicitarPermissao =
         registerForActivityResult(ActivityResultContracts.RequestPermission()) { concedida ->
             if (concedida) {
-                Log.d("MainActivity", "Permissão concedida")
                 ativarLocalizacao()
             } else {
-                Log.d("MainActivity", "Permissão negada")
                 Toast.makeText(this, "Permissão negada", Toast.LENGTH_SHORT).show()
             }
         }
@@ -125,28 +123,17 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         val localInicial = LatLng(-8.05, -34.88) // Coordenadas iniciais do mapa
-        Log.d("MainActivity", "Mapa carregado, movendo câmera para coordenadas iniciais")
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(localInicial, 12f))
         ativarLocalizacao()
     }
 
     private fun verificarPermissao() {
-        Log.d("MainActivity", "Verificando permissão de localização")
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            Log.d("MainActivity", "Permissão não concedida, solicitando")
             solicitarPermissao.launch(Manifest.permission.ACCESS_FINE_LOCATION)
-        } else {
-            Log.d("MainActivity", "Permissão já concedida")
         }
     }
 
     private fun ativarLocalizacao() {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
-            Log.d("MainActivity", "Ativando localização")
-            mMap.isMyLocationEnabled = true
-        } else {
-            Log.d("MainActivity", "Não foi possível ativar a localização: permissão ausente")
-        }
     }
 
     private fun exibirDetalhesPonto(ponto: String) {

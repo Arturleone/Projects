@@ -97,7 +97,6 @@ class MainActivity : AppCompatActivity() {
         )
 
         lifecycleScope.launch {
-            try {
                 val response = withContext(Dispatchers.IO) {
                     RetrofitClient.apiService.criarReclamacao(reclamacao)
                 }
@@ -105,12 +104,7 @@ class MainActivity : AppCompatActivity() {
                     showToast("Reclamação cadastrada com sucesso!")
                     limparCampos()
                     startActivity(Intent(this@MainActivity, ListaActivity::class.java))
-                } else {
-                    showToast("Erro ao cadastrar reclamação. Código: ${response.code()}")
                 }
-            } catch (e: Exception) {
-                showToast("Falha na comunicação: ${e.message}")
-            }
         }
     }
 

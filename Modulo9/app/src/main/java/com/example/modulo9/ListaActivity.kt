@@ -43,28 +43,17 @@ class ListaActivity : AppCompatActivity() {
     }
 
     private fun buscarReclamacoes() {
-        Log.d("ListaActivity", "Iniciando busca de reclamações...")
         lifecycleScope.launch {
-            try {
                 val response = withContext(Dispatchers.IO) { RetrofitClient.apiService.listarReclamacoes() }
                 if (response.isSuccessful && response.body() != null) {
-                    Log.d("ListaActivity", "Reclamações carregadas com sucesso.")
                     reclamacoes.clear()
                     reclamacoes.addAll(response.body()!!)
                     atualizarListView(reclamacoes)
-                } else {
-                    Log.e("ListaActivity", "Erro ao carregar reclamações: ${response.code()}")
-                    Toast.makeText(this@ListaActivity, "Erro ao carregar reclamações: ${response.code()}", Toast.LENGTH_SHORT).show()
                 }
-            } catch (e: Exception) {
-                Log.e("ListaActivity", "Falha na conexão: ${e.message}")
-                Toast.makeText(this@ListaActivity, "Falha na conexão: ${e.message}", Toast.LENGTH_SHORT).show()
-            }
         }
     }
 
     private fun atualizarListView(reclamacoes: List<Reclamacao>) {
-        Log.d("ListaActivity", "Atualizando ListView com ${reclamacoes.size} reclamações.")
         val adapter = ArrayAdapter(
             this,
             android.R.layout.simple_list_item_1,
@@ -74,18 +63,14 @@ class ListaActivity : AppCompatActivity() {
     }
 
     private fun configurarEditTextPesquisa() {
-        Log.d("ListaActivity", "Configuração do EditText iniciada.")
         editTextPesquisa.addTextChangedListener { newText ->
-            Log.d("ListaActivity", "Texto alterado na pesquisa: $newText")
             filtrarReclamacoes(newText.toString())
         }
     }
 
     private fun filtrarReclamacoes(query: String) {
-        Log.d("ListaActivity", "Filtrando reclamações com a consulta: $query")
         val reclamacoesFiltradas = if (query.isEmpty()) {
-            Log.d("ListaActivity", "Nenhum filtro aplicado, mostrando todas as reclamações.")
-            reclamacoes // Se não há texto, exibe todas as reclamações
+            reclamacoes
         } else {
             reclamacoes.filter {
                 val tituloValido = it.titulo.contains(query, ignoreCase = true) ?: false
@@ -93,7 +78,6 @@ class ListaActivity : AppCompatActivity() {
                 tituloValido || tipoValido
             }
         }
-        Log.d("ListaActivity", "Número de reclamações filtradas: ${reclamacoesFiltradas.size}")
         atualizarListView(reclamacoesFiltradas)
     }
 }
